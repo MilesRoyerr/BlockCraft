@@ -31,7 +31,7 @@ void drawCube() {
 }
 
 int main() {
-    // Initialize GLFW
+
     if (!glfwInit()) {
         std::cerr << "Failed to initialize GLFW" << std::endl;
         return -1;
