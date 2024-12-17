@@ -9,7 +9,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 
 
 void drawCube() {
-    glBegin(GL_QUADS); // Start drawing quads (a cube has 6 quads)
+    glBegin(GL_QUADS);
 
     // Front face (z = 0.5)
     glColor3f(1.0f, 0.0f, 0.0f); // Red
