@@ -53,7 +53,7 @@ int main() {
    
     glfwMakeContextCurrent(window);
 
-    // Initialize GLEW to load OpenGL extensions
+    
     glewExperimental = GL_TRUE;
     if (glewInit() != GLEW_OK) {
         std::cerr << "Failed to initialize GLEW" << std::endl;
