@@ -81,7 +81,6 @@ int main() {
 
         drawCube();
 
-        // Swap the front and back buffers (double buffering)
         glfwSwapBuffers(window);
 
         // Poll for and process events
