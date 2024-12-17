@@ -67,7 +67,7 @@ int main() {
     // Set background color (RGBA)
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 
-    // Enable depth testing for 3D rendering
+ 
     glEnable(GL_DEPTH_TEST);
 
     // Main rendering loop
