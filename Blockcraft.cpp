@@ -1,5 +1,5 @@
 #include <GL/glew.h>      
-#include <GLFW/glfw3.h>   // GLFW for window and input management
+#include <GLFW/glfw3.h>   
 #include <iostream>
 
 // Callback function to handle window resizing
