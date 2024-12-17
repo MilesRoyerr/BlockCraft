@@ -25,7 +25,7 @@ void drawCube() {
     glVertex3f(0.5f, 0.5f, -0.5f);
     glVertex3f(-0.5f, 0.5f, -0.5f);
 
-    // Other faces here (left, right, top, bottom)...
+  
 
     glEnd();
 }
