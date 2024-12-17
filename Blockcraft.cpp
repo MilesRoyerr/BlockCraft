@@ -7,7 +7,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
     glViewport(0, 0, width, height);
 }
 
-// Function to draw a simple cube
+
 void drawCube() {
     glBegin(GL_QUADS); // Start drawing quads (a cube has 6 quads)
 
