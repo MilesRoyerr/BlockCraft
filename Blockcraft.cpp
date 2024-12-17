@@ -1,4 +1,4 @@
-#include <GL/glew.h>      // GLEW for managing OpenGL extensions
+#include <GL/glew.h>      
 #include <GLFW/glfw3.h>   // GLFW for window and input management
 #include <iostream>
 
