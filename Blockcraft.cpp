@@ -42,7 +42,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // Use core profile
 
-    // Create a windowed mode window and its OpenGL context
+
     GLFWwindow* window = glfwCreateWindow(800, 600, "Blockcraft - OpenGL Window", NULL, NULL);
     if (!window) {
         std::cerr << "Failed to create GLFW window" << std::endl;
