@@ -60,7 +60,7 @@ int main() {
         return -1;
     }
 
-    // Set the viewport size and callback for window resize
+  
     glViewport(0, 0, 800, 600);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
