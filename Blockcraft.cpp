@@ -83,11 +83,9 @@ int main() {
 
         glfwSwapBuffers(window);
 
-        // Poll for and process events
         glfwPollEvents();
     }
 
-    // Clean up and exit
     glfwTerminate();
     return 0;
 }
