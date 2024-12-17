@@ -70,7 +70,6 @@ int main() {
  
     glEnable(GL_DEPTH_TEST);
 
-    // Main rendering loop
     while (!glfwWindowShouldClose(window)) {
         // Input handling (close the window on Escape key press)
         if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
