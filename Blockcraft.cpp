@@ -80,7 +80,6 @@ int main() {
         // Clear the color and depth buffer
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        // Draw the cube
         drawCube();
 
         // Swap the front and back buffers (double buffering)
